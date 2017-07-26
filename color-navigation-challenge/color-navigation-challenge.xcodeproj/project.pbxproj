@@ -15,6 +15,8 @@
 		4655D4151F22B3FC0036DA2B /* color_navigation_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655D4141F22B3FC0036DA2B /* color_navigation_challengeTests.swift */; };
 		4655D4201F22B3FC0036DA2B /* color_navigation_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655D41F1F22B3FC0036DA2B /* color_navigation_challengeUITests.swift */; };
 		4655D42E1F22B41A0036DA2B /* colorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655D42D1F22B41A0036DA2B /* colorViewController.swift */; };
+		4655D4301F22BA300036DA2B /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655D42F1F22BA300036DA2B /* color.swift */; };
+		4655D4321F22C01C0036DA2B /* colorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655D4311F22C01C0036DA2B /* colorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4655D41F1F22B3FC0036DA2B /* color_navigation_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_navigation_challengeUITests.swift; sourceTree = "<group>"; };
 		4655D4211F22B3FC0036DA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4655D42D1F22B41A0036DA2B /* colorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorViewController.swift; sourceTree = "<group>"; };
+		4655D42F1F22BA300036DA2B /* color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		4655D4311F22C01C0036DA2B /* colorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4655D40B1F22B3FC0036DA2B /* Info.plist */,
 				4655D4031F22B3FC0036DA2B /* color_navigation_challenge.xcdatamodeld */,
 				4655D42D1F22B41A0036DA2B /* colorViewController.swift */,
+				4655D42F1F22BA300036DA2B /* color.swift */,
+				4655D4311F22C01C0036DA2B /* colorDetailViewController.swift */,
 			);
 			path = "color-navigation-challenge";
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4655D42E1F22B41A0036DA2B /* colorViewController.swift in Sources */,
+				4655D4321F22C01C0036DA2B /* colorDetailViewController.swift in Sources */,
+				4655D4301F22BA300036DA2B /* color.swift in Sources */,
 				4655D4051F22B3FC0036DA2B /* color_navigation_challenge.xcdatamodeld in Sources */,
 				4655D3FD1F22B3FC0036DA2B /* AppDelegate.swift in Sources */,
 			);
